@@ -1,5 +1,6 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
+import com.zipcodewilmington.froilansfarm.Produce.Crop;
 import com.zipcodewilmington.froilansfarm.Produce.Produce;
 
 public class Chicken extends Animal implements Produce {
@@ -17,5 +18,13 @@ public class Chicken extends Animal implements Produce {
 
     public void makeNoise() {
         return "Peep!";
+    }
+
+    public Crop plant() {
+        return null;
+    }
+
+    public Boolean fertilize() {
+        return null;
     }
 }
