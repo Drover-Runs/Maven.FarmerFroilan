@@ -1,4 +1,8 @@
 package com.zipcodewilmington.froilansfarm.Shelter;
 
-public class Farmhouse {
+import com.zipcodewilmington.froilansfarm.Person.Person;
+
+public class Farmhouse extends Shelter <Person> {
+
+
 }

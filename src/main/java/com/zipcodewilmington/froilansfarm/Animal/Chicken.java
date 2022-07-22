@@ -1,7 +1,5 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
-import com.zipcodewilmington.froilansfarm.GenericUtils.Eater;
-import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.Produce.Produce;
 
 public class Chicken extends Animal implements Produce {
@@ -17,7 +15,7 @@ public class Chicken extends Animal implements Produce {
 
     }
 
-    public String makeNoise() {
+    public void makeNoise() {
         return "Peep!";
     }
 }

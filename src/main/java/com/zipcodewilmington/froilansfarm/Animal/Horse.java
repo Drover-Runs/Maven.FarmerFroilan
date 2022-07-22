@@ -1,6 +1,5 @@
 package com.zipcodewilmington.froilansfarm.Animal;
 
-import com.zipcodewilmington.froilansfarm.GenericUtils.NoiseMaker;
 import com.zipcodewilmington.froilansfarm.GenericUtils.Rider;
 
 public class Horse extends Animal implements Rider{
@@ -13,7 +12,7 @@ public class Horse extends Animal implements Rider{
 
     }
 
-    public String makeNoise() {
+    public void makeNoise() {
         return "Neigh!";
     }
 
