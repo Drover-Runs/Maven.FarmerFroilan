@@ -14,8 +14,8 @@ public class Field<Crop> {
         return field.get(index);
      }
 
-    public CropRow add(CropRow cropRow, Integer index) {
-        field.add(index, cropRow);
+    public CropRow add(CropRow cropRow) {
+        field.add(cropRow);
         return cropRow;
     }
 
