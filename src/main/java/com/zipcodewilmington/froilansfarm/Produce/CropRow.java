@@ -2,6 +2,7 @@ package com.zipcodewilmington.froilansfarm.Produce;
 
 import com.zipcodewilmington.froilansfarm.Animal.Chicken;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class CropRow extends Field <Crop> {
@@ -13,10 +14,14 @@ public class CropRow extends Field <Crop> {
     }
 
 
-    public Object plantCrop(Object crop){
-        croprow.add((Crop) crop);
+    public Object plantCrop(Object crop, Integer amount){
+        for (int i = 0; i <= amount; i++) {
+            croprow.add((Crop) crop);
+        }
         return crop;
     }
+
+
 
     public Crop getCrop(Crop crop, Integer index){
         return croprow.get(index);
